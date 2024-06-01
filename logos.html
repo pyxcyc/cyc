@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>no title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}.emoji{height:.8em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}
+    /* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+    </style>
+    <link rel="stylesheet" href="file:///c:\Users\语暄\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.13\crossnote\dependencies\katex\katex.min.css">
+    <!-- The content below will be included at the end of the <head> element. --><html><head><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body></body></html>
+  </head>
+  <body for="html-export">
+    <div class="crossnote markdown-preview">
+    <html><head></head><body><div>
+<h1 id="一级标题" ebook-toc-level-1="" heading="一级标题 ">一级标题 </h1>
+<h2 id="二级标题" ebook-toc-level-2="" heading="二级标题 ">二级标题 </h2>
+<h3 id="三级标题" ebook-toc-level-3="" heading="三级标题 ">三级标题 </h3>
+<p>正文直接输入就可以了</p>
+<h1 id="一-基础语法" ebook-toc-level-1="" heading="一、基础语法 ">一、基础语法 </h1>
+<h2 id="1-换行-换段落" ebook-toc-level-2="" heading="1. 换行、换段落 ">1. 换行、换段落 </h2>
+<p>换行：先按两下空格再按回车键；<br>
+换段落：按两下回车键</p>
+<h2 id="2-加粗-斜体" ebook-toc-level-2="" heading="2. 加粗、斜体 ">2. 加粗、斜体 </h2>
+<p><strong>加粗</strong>：文字左右两边各加两个*（星号） 或者 各加两个_（下划线）<br>
+<em>斜体</em>：文字左右两边各加一个*（星号）或者 各加一个_（下划线）<br>
+<em><strong>粗斜体</strong></em>：文字左右两边各加三个* 或者 三个_</p>
+<h2 id="3-删除线" ebook-toc-level-2="" heading="3. 删除线 ">3. 删除线 </h2>
+<p><s>删除线</s>：文字左右两边各加两条~（波浪线）<br>
+<em><strong><s>（粗斜体删除线）</s></strong></em></p>
+<h2 id="4-分隔线" ebook-toc-level-2="" heading="4. 分隔线 ">4. 分隔线 </h2>
+<p>在两段文本中间单独开一行，插入三个连续星号（此行不能有其他内容）</p>
+<p>文本A</p>
+<hr>
+<p>文本B</p>
+<h2 id="5-下划线" ebook-toc-level-2="" heading="5. 下划线 ">5. 下划线 </h2>
+<p><u>下划线</u></p>
+<h2 id="6-更改正文字体大小" ebook-toc-level-2="" heading="6. 更改正文字体大小 ">6. 更改正文字体大小 </h2>
+<p><big>大号字体</big>  正常字体  <small>小号字体</small></p>
+<h2 id="7-标假名" ebook-toc-level-2="" heading="7. 标假名 ">7. 标假名 </h2>
+<p>[漢字]{かんじ}</p>
+<h2 id="8-高亮" ebook-toc-level-2="" heading="8. 高亮 ">8. 高亮 </h2>
+<p><mark>这是一段高亮文本</mark></p>
+<h2 id="9-上下标" ebook-toc-level-2="" heading="9. 上下标 ">9. 上下标 </h2>
+<p>x<sup>2</sup><br>
+x<sub>2</sub></p>
+<h1 id="二-列表" ebook-toc-level-1="" heading="二、列表 ">二、列表 </h1>
+<h2 id="1-无序列表" ebook-toc-level-2="" heading="1. 无序列表 ">1. 无序列表 </h2>
+<ul>
+<li>
+<p>这是第一条</p>
+</li>
+<li>
+<p>这是第二条</p>
+</li>
+<li>
+<p>这是第三条</p>
+<p>语法：一个*（星号）+空格+文本 或者 一个-（减号）+空格+文本</p>
+</li>
+</ul>
+<h2 id="2-有序列表" ebook-toc-level-2="" heading="2. 有序列表 ">2. 有序列表 </h2>
+<ol>
+<li>
+<p>这是第一条</p>
+</li>
+<li>
+<p>这是第二条</p>
+</li>
+<li>
+<p>这是第三条</p>
+<p>语法：数字（可以自定义）+ . +空格<br>
+<strong>注意！</strong>：有序列表只能顺着第一个输入的数字n按照n+1的规律往下排序，不能跳着排。</p>
+</li>
+<li>
+<p>这是第一条</p>
+</li>
+<li>
+<p>这是第二条</p>
+</li>
+<li>
+<p>这是第三条</p>
+</li>
+</ol>
+<h2 id="3-嵌套多级列表" ebook-toc-level-2="" heading="3. 嵌套多级列表 ">3. 嵌套多级列表 </h2>
+<ol>
+<li>母级列表1
+<ol>
+<li>二级列表1
+<ol>
+<li>三级列表</li>
+<li>三级列表</li>
+</ol>
+</li>
+<li>二级列表2
+<ol>
+<li>三级列表</li>
+<li>三级列表</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>母级列表2</li>
+<li>母级列表3<br>
+……<br>
+<strong>语法</strong>：在一级列表下换行，按四个空格开创新列表，此为二级列表；在二级列表下换行，按八个空格（从一级列表开头开始算）开创新列表，此为三级列表。</li>
+</ol>
+<h2 id="4-勾选框" ebook-toc-level-2="" heading="4. 勾选框 ">4. 勾选框 </h2>
+<ul>
+<li><input type="checkbox" class="task-list-item-checkbox" checked=""> 任务1</li>
+<li><input type="checkbox" class="task-list-item-checkbox"> 任务2</li>
+</ul>
+<p><strong>语法</strong>：*+空格+[ ]（方括号中间要空一格）。<em>打勾的框：把方括号中间的空格改成x</em></p>
+<h1 id="三-代码块" ebook-toc-level-1="" heading="三、代码块 ">三、代码块 </h1>
+<p>第一种方法（推荐）：在代码的前后加上```</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>print('Hello, world')
+</code></pre><p>*可以在```后面标注语言，如Python:</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>a <span class="token operator">=</span> <span class="token builtin">eval</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">'请输入被除数'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+b <span class="token operator">=</span> <span class="token builtin">eval</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">'请输入除数'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword keyword-if">if</span> b <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string">'输入错误'</span><span class="token punctuation">)</span>
+<span class="token keyword keyword-else">else</span><span class="token punctuation">:</span>
+  c <span class="token operator">=</span> a <span class="token operator">%</span> b
+  <span class="token keyword keyword-while">while</span> c! <span class="token operator">=</span> <span class="token number">0</span> <span class="token punctuation">:</span>
+    a <span class="token operator">=</span> b
+    b <span class="token operator">=</span> c
+    c <span class="token operator">=</span> a <span class="token operator">%</span> b
+<span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string">'最大公约数为：'</span><span class="token punctuation">,</span>b<span class="token punctuation">)</span>
+</code></pre><p>标注之后，代码会自动按标注的语言进行高亮处理</p>
+<p>第二种方法：整个代码块空四个（<strong>如何选取大片代码块：光标放在左边开头，长按Alt键+用鼠标左键点击要选择的行</strong>）</p>
+<pre class="language-text">a = Hello, world
+print (a)
+</pre>
+<p>如果只要标注少数几个计算机语言术语，可以在该术语前后加一个斜点。例如：</p>
+<blockquote>
+<p>我们比较两个字符串对象时，需要调用<code>equals()</code>方法</p>
+</blockquote>
+<h1 id="四-引用" ebook-toc-level-1="" heading="四、引用 ">四、引用 </h1>
+<blockquote>
+<p>这是一段引用文本</p>
+</blockquote>
+<p>语法：&gt; +空格+文本</p>
+<p>引用里面还可以嵌套引用，打两个&gt;&gt;即是二级引用</p>
+<blockquote>
+<p>这是一段引用文本</p>
+<blockquote>
+<p>我引用了你的引用</p>
+<blockquote>
+<p>我引用了你的引用的引用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="五-超链接" ebook-toc-level-1="" heading="五、超链接 ">五、超链接 </h1>
+<h2 id="1-一般方法" ebook-toc-level-2="" heading="1. 一般方法： ">1. 一般方法： </h2>
+<p>请关注我们的<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&amp;__biz=MzkyMDQ5MzYzMQ==">公众号</a><br>
+语法：方括号[超链接文本]+(链接)</p>
+<h2 id="2-一个文本里同时插入多个超链接" ebook-toc-level-2="" heading="2. 一个文本里同时插入多个超链接 ">2. 一个文本里同时插入多个超链接 </h2>
+<p>请在<a href="https://www.tencent.com">腾讯</a>的<a href="https://weixin.qq.com/">微信</a>关注我们的<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&amp;__biz=MzkyMDQ5MzYzMQ==">公众号</a></p>
+<p><strong>注意</strong>：这里的文本和链接要换段落 链接之间不用</p>
+<h2 id="3-脚注" ebook-toc-level-2="" heading="3. 脚注 ">3. 脚注 </h2>
+<p>引用论文时记得标注脚注<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<p>在文本后面用中括号扩住数字，再在文末用[数字]：的方式注明</p>
+<h2 id="六-插入图片" ebook-toc-level-2="" heading="六、插入图片 ">六、插入图片 </h2>
+<p>在markdown中插入图片，只能以链接形式插入；可以是网络图片链接（推荐），也可以是本地图片链接。</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/cfcf44cc35aba19290e6e23743e8ec7d161775300.jpg@264w_264h_1e_1c.avif" alt="乌尔比安" title="52饼干"></p>
+<p>语法：！+ [自定义名字] +(图片链接，链接后面空一格，用英文的""可以标注图片名字)<br>
+*使用此方法时，不能改变图像大小</p>
+<h2 id="七-插入表格" ebook-toc-level-2="" heading="七、插入表格 ">七、插入表格 </h2>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th>年龄</th>
+<th>性别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>陈</td>
+<td>22</td>
+<td>女</td>
+</tr>
+<tr>
+<td>乌尔比安</td>
+<td>26</td>
+<td>男</td>
+</tr>
+</tbody>
+</table>
+<p>左对齐：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">姓名</th>
+<th style="text-align:left">年龄</th>
+<th style="text-align:left">性别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">陈</td>
+<td style="text-align:left">22</td>
+<td style="text-align:left">女</td>
+</tr>
+<tr>
+<td style="text-align:left">乌尔比安</td>
+<td style="text-align:left">26</td>
+<td style="text-align:left">男</td>
+</tr>
+</tbody>
+</table>
+<p>右对齐：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">姓名</th>
+<th style="text-align:right">年龄</th>
+<th style="text-align:right">性别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">陈</td>
+<td style="text-align:right">22</td>
+<td style="text-align:right">女</td>
+</tr>
+<tr>
+<td style="text-align:right">乌尔比安</td>
+<td style="text-align:right">26</td>
+<td style="text-align:right">男</td>
+</tr>
+</tbody>
+</table>
+<p>居中</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">姓名</th>
+<th style="text-align:center">年龄</th>
+<th style="text-align:center">性别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">陈</td>
+<td style="text-align:center">22</td>
+<td style="text-align:center">女</td>
+</tr>
+<tr>
+<td style="text-align:center">乌尔比安</td>
+<td style="text-align:center">26</td>
+<td style="text-align:center">男</td>
+</tr>
+</tbody>
+</table>
+<h2 id="八-嵌入自定义html内容" ebook-toc-level-2="" heading="八、嵌入自定义HTML内容 ">八、嵌入自定义HTML内容 </h2>
+<p>（需要自行摸索HTML语言）</p>
+<h3 id="1-插入图片" ebook-toc-level-3="" heading="1. 插入图片 ">1. 插入图片 </h3>
+<img style="width:400px;height:500px" src="https://i0.hdslb.com/bfs/new_dyn/cfcf44cc35aba19290e6e23743e8ec7d161775300.jpg@264w_264h_1e_1c.avif">
+<h3 id="2-更改字体大小和颜色" ebook-toc-level-3="" heading="2. 更改字体大小和颜色 ">2. 更改字体大小和颜色 </h3>
+<p><span style="color:red">单抽</span>出<span style="color:blue">乌尔比安</span>，谢谢</p>
+<p><span style="font-size:30px">乌！尔！比！安！</span>男人中的<span style="color:blue;font-size:30px">男人！</span>雄性中的<span style="color:blue;font-size:30px">雄性！</span></p>
+<h2 id="九-插入数学公式" ebook-toc-level-2="" heading="九、插入数学公式 ">九、插入数学公式 </h2>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">x+1=10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span><br>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{3} + 1 = \frac {4}{3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>这是脚注篇引导的脚注。我们不需要将鼠标移到所有文字的最后再添加脚注，将该脚注放到标注的句子后面就可以了。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+</div></body></html>
+    </div>
+  </body>
+</html>
